@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment & secrets
+.env
+*.json          # service-account keys must NEVER be committed
+!dbt/**/*.json  # (allow dbt's own json if any; we keep keys out of dbt anyway)
+
+# Data — never commit raw data dumps
+data/
+*.parquet
+*.csv
+
+# dbt
+dbt/**/target/
+dbt/**/dbt_packages/
+dbt/**/logs/
+
+# OS
+.DS_Store

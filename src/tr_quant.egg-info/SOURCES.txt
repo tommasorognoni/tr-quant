@@ -1,0 +1,12 @@
+pyproject.toml
+src/tr-quant/__init__.py
+src/tr-quant/analytics/__init__.py
+src/tr-quant/backtest/__init__.py
+src/tr-quant/ingest/__init__.py
+src/tr-quant/research/__init__.py
+src/tr-quant/warehouse/__init__.py
+src/tr_quant.egg-info/PKG-INFO
+src/tr_quant.egg-info/SOURCES.txt
+src/tr_quant.egg-info/dependency_links.txt
+src/tr_quant.egg-info/top_level.txt
+src/trquant/__init__.py
